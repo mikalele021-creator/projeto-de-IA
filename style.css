@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 180px;
+    background-color: gainsboro;
+  
+}
+
+body a {
+      text-decoration: none;
+    color: black;
+}
+
+.opcoes {
+    display: flex;
+    gap: 20px;
+    padding-top: 40px;
+  
+}
+
+.professores {
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+}
+
+.alunos {
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+}
+h1{
+    font-size: 60px;
+}
+.mapa{
+    font-size: 25px;
+    padding-top: 15px;
+}
+.cap{
+    background-color: green;
+    border-radius: 60px;
+    color: white;
+
+}
+.alu{
+    background-color:rgb(221, 130, 10);
+    border-radius: 60px;
+    color: white;
+}
+
+.professores i{
+    font-size: 70px;
+    background-color: green;
+    padding: 35px 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 250px;
+    color: white;
+ 
+}
+.alunos i{
+    font-size: 70px;
+    background-color: purple;
+    padding: 35px 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 250px;
+    color: white;
+}
