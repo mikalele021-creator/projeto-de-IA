@@ -29,30 +29,37 @@
 
     </header>
     <main>
-<div> 
-    <div class="adicionar">
-<h3>Adicionar Alunos</h3>
-<h4>Nome</h4>
-<input type="text"  id="nome" placeholder="Nome completo:">
-<h4>Altura (cm):</h4>
-<input type="number" id="altura" placeholder="Altura:" >
-<label>
-<input type="checkbox" id="visao">
-<p>Problema de Visão</p>
-</label>
-<label>
-    <input type="checkbox" id="audicao">
-    <p>Problema de Audição</p>
-</label>
-<h4>Obeservações de Comportamento</h4>
-<textarea id="obs" placeholder="Obsevações:"></textarea>
-<button class="botao" onclick="salvarAlunos()">Adicionar</button>
-    </div>
-    <hr>
-    <div class="lista"> 
+        <div class="caixa">
+            <div class="adicionar">
+                <h3>Adicionar Alunos</h3>
+                <h4>Nome</h4>
+                <input type="text" id="nome" placeholder="Nome completo:">
+                <h4>Altura (cm):</h4>
+                <input type="number" id="altura" placeholder="Altura:">
+                <label>
+                    <input type="checkbox" id="visao">
+                    <p>Problema de Visão</p>
+                </label>
+                <label>
+                    <input type="checkbox" id="audicao">
+                    <p>Problema de Audição</p>
+                </label>
+                <h4>Obeservações de Comportamento</h4>
+                <textarea id="obs" placeholder="Obsevações:"></textarea>
+                <button class="botao" onclick="salvarAlunos()">Adicionar</button>
+            </div>
+            <hr>
+            <div class="lista">
+                <div class="lista-header">
+                    <h3>LISTA DE ALUNOS</h3>
+                    <span class="contador"><span id="qtd-alunos">0</span>alunos</span>
+                </div>
+                <div id="container-lista">
 
-    </div>
-</div>
+                </div>
+
+            </div>
+        </div>
 
 
     </main>

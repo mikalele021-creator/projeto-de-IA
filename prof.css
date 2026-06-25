@@ -42,9 +42,8 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: #ada9a9;
+    background-color: #c5c3c3c2;
     padding: 15px;
-    margin-top: 30px;
     border-radius: 10px;
 }
 input, textarea{
@@ -66,4 +65,93 @@ textarea{
 }
 label{
     display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.caixa{
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+margin-top: 30px;
+}
+.lista{
+    padding-top: 20px;
+    background-color: #c5c3c3c2;
+     border-radius: 10px;
+padding: 20px;
+width: 100%;
+max-width: 500px;
+}
+.lista-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.contador{
+    background: #e6efff;
+    color: #3b82f6;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.card-aluno{
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding:12px 15px ;
+     margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+.info-aluno h4 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 4px 0;
+    color: #111;
+}
+.info-aluno p {
+    font-size: 13px;
+    color: #555;
+    margin: 2px 0;
+}
+
+.info-visao p {
+    font-size: 13px;
+    color: #555;
+    margin: 0;
+}
+.status.ok {
+    color: #16a34a;
+    font-weight: 600;
+}
+.status.problema {
+    color: #dc2626;
+    font-weight: 600;
+}
+
+.acoes {
+    display: flex;
+    gap: 6px;
+}
+.btn-editar {
+    background: #3b82f6;
+    color: white;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-excluir {
+    background: #ef4444;
+    color: white;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 14px;
 }
